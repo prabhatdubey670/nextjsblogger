@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .description {
@@ -275,4 +277,17 @@
   to {
     transform: rotate(0deg);
   }
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav ul li {
+  padding: 1em;
+  text-decoration: none;
+  list-style-type: none;
+}
+.img {
+  margin-top: 2rem;
 }
