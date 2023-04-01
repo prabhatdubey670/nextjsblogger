@@ -5,6 +5,7 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] });
 
 const blog = () => {
+  // fetch data from api and set it to state
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch('http://localhost:3000/api/blogs')
